@@ -12,6 +12,8 @@ obj/
 # Vector Database / Indices
 .vectorstore/
 chroma_db/
+docs/
+
 
 # Python Cache
 __pycache__/
