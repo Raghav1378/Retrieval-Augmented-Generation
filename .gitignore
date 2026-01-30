@@ -1,0 +1,30 @@
+# Virtual Environment
+Rag/
+venv/
+.venv/
+env/
+bin/
+obj/
+
+# Sensitive Information
+.env
+
+# Vector Database / Indices
+.vectorstore/
+chroma_db/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs and Tools
+.vscode/
+.idea/
+.DS_Store
+
+# Large Data (Optional but recommended for RAG projects)
+data/*.pdf
+data/*.txt
+!data/.gitkeep
